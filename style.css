@@ -9,7 +9,7 @@ html {
 
 .card {
     width: 12cm;
-    height: 10cm;
+    height: 12cm;
     background-color: white;
     position: relative;
     top: 2cm;
@@ -21,19 +21,19 @@ html {
 .name {
     border-color: gray;
     position: relative;
-    top: -7cm;
+    top: -8.5cm;
 }
 .last-name {
     position: relative;
-    top: -6.5cm;
+    top: -7.9cm;
 }
 .email {
     position: relative;
-    top: -6cm;
+    top: -7.3cm;
 }
 .password {
     position: relative;
-    top: -5.5cm;
+    top: -6.7cm;
 }
 input {
     border-radius: 4px;
@@ -53,4 +53,21 @@ input::placeholder {
 
 input:is(:focus) {
     outline-color: hsl(246, 25%, 77%)
+}
+
+.btn-trial {
+    position: relative;
+    top: -6cm;
+}
+
+button {
+    background-color: hsl(154, 59%, 51%);
+    border-style: none;
+    border-radius: 5px;
+    width: 10cm;
+    height: 1.2cm;
+    left: 13cm; 
+    font-family: Inherit;
+    font-weight: 500;
+    color: white;   
 }
