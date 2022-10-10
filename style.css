@@ -76,3 +76,18 @@ button {
 .btn-trial:hover {
     background-color: #3de09a;
 }
+
+.tos {
+    position: relative;
+    left: 12cm;
+    top: -6cm;
+    font-size: 10px;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+
+.tos-link {
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+}
