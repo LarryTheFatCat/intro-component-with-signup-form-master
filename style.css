@@ -9,8 +9,8 @@ html {
 
 .card {
     position: relative;
-    top: 2cm;
-    left: 23cm;
+    top: 1.5cm;
+    left: 24cm;
     width: 12cm;
     height: 12cm;
     border-radius: 5px;
@@ -90,4 +90,29 @@ button {
     font-weight: 500;
     color: white;   
     cursor: pointer;
+}
+
+.trial {
+    background-color: hsl(248, 32%, 49%);
+    width: 12cm;
+    height: 1.5cm;
+    position: relative;
+    left: 24cm;
+    top: 1cm;
+    border-radius: 5px;
+    
+}
+
+.trial-text {
+    position: relative;
+    top: 0.5cm;
+    text-align: center;
+    font-family: Inherit;
+    color: hsl(246, 25%, 77%);
+    font-size: 14px;
+}
+
+.trial-time {
+    font-weight: 900;
+    color: white;
 }
