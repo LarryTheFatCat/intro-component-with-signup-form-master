@@ -25,19 +25,26 @@ html {
     left: 13cm;
     height: 1cm
 }
+.last-name {
+    position: relative;
+    top: -6.5cm;
+    left: 13cm;
+    height: 1cm
+}
 input {
-    border-radius: 5px;
+    border-radius: 4px;
     width: 10cm;
-    outline-color: gray solid;
+    border-width: 0.01cm;
+    text-indent: 0.5cm;
+    font-family: Inherit;
 }
 
 input::placeholder {
     font-family: Inherit;
     font-weight: 700;
-    padding: 0.5cm;
     font-size: 15px;
 }
 
 input:is(:focus) {
-    outline-color: blue;
+    outline-color: hsl(246, 25%, 77%)
 }
