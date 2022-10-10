@@ -23,13 +23,16 @@ html {
     position: relative;
     top: -7cm;
     left: 13cm;
-    height: 1cm
 }
 .last-name {
     position: relative;
     top: -6.5cm;
     left: 13cm;
-    height: 1cm
+}
+.email {
+    position: relative;
+    top: -6cm;
+    left: 13cm;
 }
 input {
     border-radius: 4px;
@@ -37,6 +40,7 @@ input {
     border-width: 0.01cm;
     text-indent: 0.5cm;
     font-family: Inherit;
+    height: 1.2cm;
 }
 
 input::placeholder {
