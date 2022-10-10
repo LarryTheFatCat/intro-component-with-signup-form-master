@@ -22,17 +22,18 @@ html {
     border-color: gray;
     position: relative;
     top: -7cm;
-    left: 13cm;
 }
 .last-name {
     position: relative;
     top: -6.5cm;
-    left: 13cm;
 }
 .email {
     position: relative;
     top: -6cm;
-    left: 13cm;
+}
+.password {
+    position: relative;
+    top: -5.5cm;
 }
 input {
     border-radius: 4px;
@@ -41,6 +42,7 @@ input {
     text-indent: 0.5cm;
     font-family: Inherit;
     height: 1.2cm;
+    left: 13cm;
 }
 
 input::placeholder {
