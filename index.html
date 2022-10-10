@@ -8,19 +8,20 @@
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 <body>
+  <script src="script.js"></script>
   <div class="container">
     <div class="card">
       <div class="card trial">
         Try it for free 7 ddays then $20/mo. thereafter
       </div>
       <div class="input-group">
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">
-        <input type="text" placeholder="Email Address">
-        <input type="password" placeholder="Password" >
+        <input type="text" placeholder="First Name" class="name">
+        <input type="text" placeholder="Last Name" class="last-name">
+        <input type="text" placeholder="Email Address" class="email">
+        <input type="password" placeholder="Password" class="password">
       </div>
       <div class="button-group">
-        <button class="btn-trial">CLAIM YOUR FREE TRIAL</button>
+        <button class="btn-trial" onclick="checkInvalid()">CLAIM YOUR FREE TRIAL</button>
       </div>
       <p>
         By click the button, you are agreeing to our 

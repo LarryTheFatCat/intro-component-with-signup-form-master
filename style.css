@@ -4,5 +4,11 @@ html {
     background-image: url('/images/bg-intro-desktop.png');
     background-color: hsl(0, 100%, 74%);
     font-family: "Poppins", "Inherit", sans-serif;
-    
+
+}
+
+.card {
+    width: 10cm;
+    height: 10cm;
+    background-color: white;
 }
