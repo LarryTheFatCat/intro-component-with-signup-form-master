@@ -8,36 +8,32 @@
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 <body>
-  <script src="script.js"></script>
   <div class="container">
+    <div class="title-content">
+      Learn to code by watching others
+    </div>
+    <div class="title-description">
+      See how experienced developers solve problems in real-time. Watchig scripted tutorials is great, but understanding how developers think is invaluable.
+    </div>
+    <div>
+      Try it for free 7 days then $20/mo. thereafter
+    </div>
     <div class="card">
-      <div class="card trial">
-        Try it for free 7 ddays then $20/mo. thereafter
-      </div>
-      <div class="input-group">
-        <input type="text" placeholder="First Name" class="name">
-        <input type="text" placeholder="Last Name" class="last-name">
-        <input type="text" placeholder="Email Address" class="email">
-        <input type="password" placeholder="Password" class="password">
+      <div class="input-groups">
+        <input type="text" class="name" placeholder="First Name" required>
+        <input type="text" class="last-name" placeholder="Last Name" required>
+        <input type="text" class="email" placeholder="Email Address" required>
+        <input type="password" class="password" placeholder="Password" required>
       </div>
       <div class="button-group">
-        <button class="btn-trial" onclick="checkInvalid()">CLAIM YOUR FREE TRIAL</button>
-      </div>
-      <p class="tos">
-        By click the button, you are agreeing to our 
-        <a href="#" class="tos-link">
-          Terms and Services
-        </a>
-      </p>
-      <div class="title-content">
-        Learn to code by watching others
-      </div>
-      <div class="description">
-        <p class="text-description">
-          See how experience developers solve probems in real-time. Watching scripted tutorials is great, but understanding how developers thing is invaluable.
-        </p>
+        <button class="btn-trial" type="submit" aria-required="true">
+          Claim your Free Trial
+        </button>
       </div>
     </div>
-  </div>
+  </div> 
+  Claim your free trial 
+
+  By clicking the button, you are agreeing to our Terms and Services
 </body>
 </html>
