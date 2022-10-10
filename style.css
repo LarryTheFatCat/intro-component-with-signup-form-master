@@ -4,12 +4,14 @@ html {
     background-image: url('/images/bg-intro-desktop.png');
     background-color: hsl(0, 100%, 74%);
     font-family: "Poppins", "Inherit", sans-serif;
+    overflow: hidden; /* Hide scrollbars */
+
 
 }
 
 .card {
     position: relative;
-    top: 1.5cm;
+    top: -3.5cm;
     left: 24cm;
     width: 12cm;
     height: 12cm;
@@ -56,7 +58,9 @@ input::placeholder {
 }
 
 input:is(:focus) {
-    outline-color: hsl(246, 25%, 77%)
+    outline-color: hsl(246, 25%, 77%);
+    font-weight: 700;
+    color: black;
 }
 
 .tos-group {
@@ -98,7 +102,7 @@ button {
     height: 1.5cm;
     position: relative;
     left: 24cm;
-    top: 1cm;
+    top: -4cm;
     border-radius: 5px;
     
 }
@@ -115,4 +119,12 @@ button {
 .trial-time {
     font-weight: 900;
     color: white;
+}
+
+.title-text {
+    position: relative;
+    top: 6cm;
+    color: white;
+    left: 8cm;
+    font-size: 45px;
 }
