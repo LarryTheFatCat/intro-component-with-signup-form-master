@@ -128,3 +128,10 @@ button {
     left: 8cm;
     font-size: 45px;
 }
+
+.description-text {
+    color: white;
+    position: relative;
+    top: 6.5cm;
+    left: 8cm;
+}
